@@ -12,32 +12,33 @@
 
 <body>
   <div class="container">
+    <div class="jumbotron">
     <h1>JAVASCRIPT TEST</h1>
     <p>The test contains 5 questions for you to fill which each has 5marks<p>
-        <form id="quiz">
+    </div>
+        <form name="myform">
           <div id="">
             <h2>START QUIZ</h2>
             <!-- //question 1 -->
             <p>Inside which HTML element do we put the JavaScript?</p>
 
 
-            <input type="radio" name="ans" value="a" >scripts
+            <input type="radio" name="q1" value="a" >scripts
 
             <br>
             <br>
 
-            <input type="radio" name="ans" value="b">js
+            <input type="radio" name="q1" value="b">js
 
             <br>
             <br>
 
-            <input type="radio"  name="ans"value="c">JavaScript
+            <input type="radio"  name="q1"value="c">JavaScript
 
             <br>
             <br>
 
-            <input type="radio" name="ans" value="d">
-          none of the above
+            <input type="radio" name="q1" value="d">none of the above
 
           </div>
 
@@ -45,88 +46,72 @@
             <p> what is the correct place to insert a JavaScript?</p>
 
 
-            <input type="radio" name="ans1" value="a">
-          The head section
+            <input type="radio" name="q2" value="a">The head section
 
             <br>
             <br>
 
-            <input type="radio" name="ans1" value="b">
-          both head and body
+            <input type="radio" name="q2" value="b">both head and body
 
             <br>
             <br>
 
-
-            <input type="radio" name="ans1" value="c">
-          the body
+          <input type="radio" name="q2" value="c">the body
 
             <br>
             <br>
 
-            <input type="radio" name="ans1" value="d">
-                none of the above
+            <input type="radio" name="q2" value="d">none of the above
 
             <!-- question three -->
 
             <p>The external JavaScript file must contain the <scripts> tag?</p>
 
-            <input type="radio"  name="ans2" value="a">
-      True
+            <input type="radio"  name="q3" value="a">True
             <br>
             <br>
 
-            <input type="radio" name="ans2" value="b">
-      False
+            <input type="radio" name="q3" value="b">False
             <!-- question four -->
-            <p>how do you write an if statement in JavaScript?
+            <p>How do you write an if statement in JavaScript?
 
-              <input type="radio"  name="ans3" value="a">
-        if i =5
-
-              <br>
-              <br>
-
-              <input type="radio" name="ans3" value="b">
-      if (i==5)then
-
-              <br>
-              <br>
-              <label>
-        <input type="radio"name="ans3" value="c">
-          if i=5 then
+              <input type="radio"  name="q4" value="a">if i =5
 
               <br>
               <br>
 
-        <input type="radio" name="ans3" value="d">
-        none of the ab
+              <input type="radio" name="q4" value="b">if (i==5)then
+               <br>
+                <br>
+                <input type="radio"name="q4" value="c">if i=5 then
 
-            <p> How can you add a comment in a JavaScript?</p>
+                <br>
+                <br>
+
+                <input type="radio" name="q4" value="d">none of the ab
+
+                <p> How can you add a comment in a JavaScript?</p>
 
 
-     <input type="radio" name="ans4" value="a">
-     < !----comment ---!>
+                <input type="radio" name="q5" value="a"> < !----comment ---!>
 
-              <br>
-              <br>
+                  <br>
+                  <br>
 
-     <input type="radio" name="ans4" value="b">
-     /.comment
+                  <input type="radio" name="q5" value="b">  /.comment
 
-              <br>
-              <br>
+                  <br>
+                  <br>
 
-     <input type="radio"  name="ans4" value="c">
-     //comment
-      <br>
-      <br>
+                  <input type="radio"  name="q5" value="c">//comment
+                  <br>
+                  <br>
 
 
       </form>
-      <button type="submit" class="btn" onclick="check()">Get results</button>
+                  <button type="submit" class="btn" onclick="check()">submit</button>
 
-    </div>
+          </div>
 </body>
 
 </html>
