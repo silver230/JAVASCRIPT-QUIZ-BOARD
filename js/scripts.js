@@ -18,5 +18,9 @@ function check({
   var q2 = document.myform.q2.value:
   var q3 = document.myform.q3.value:
   var q4 = document.myform.q4.value:
+  var  ans =0;
 
+  if (q1===""){
+           ans++4
+  }
 })
