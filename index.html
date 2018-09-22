@@ -3,122 +3,129 @@
 
 <head>
   <meta charset="utf-8">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
   <title>QUIZ BOARD</title>
 </head>
 
 <body>
-  <h1>JAVASCRIPT TEST</h1>
-  <p>The test contains 5 questions for you to fill which each  has 5marks<p>
-      <form>
-        <h2>START QUIZ</h2>
-        <!-- //question 1 -->
-        <p>Inside which HTML element do we put the JavaScript?</p>
-        <div class="radio">
-          <label><input type="radio" name="element" value="scripts" checked>scripts</label>
-          <br>
-          <br>
-         <label><input type="radio" name="element" value="js" checked>js
-        </label>
-        <br>
-        <br>
-      <label><input type="radio" name="element"value="javascript">JavaScript
-        </label>
-        <br>
-        <br>
-      <label><input type="radio" name="element" value="none of the above">
+  <div class="container">
+    <h1>JAVASCRIPT TEST</h1>
+    <p>The test contains 5 questions for you to fill which each has 5marks<p>
+        <form id="quiz">
+          <div id="">
+            <h2>START QUIZ</h2>
+            <!-- //question 1 -->
+            <p>Inside which HTML element do we put the JavaScript?</p>
+
+
+            <input type="radio" name="ans" value="a" checked>scripts
+
+            <br>
+            <br>
+
+            <input type="radio" name="ans" value="b" checked>js
+
+            <br>
+            <br>
+
+            <input type="radio"  name="ans"value="c">JavaScript
+
+            <br>
+            <br>
+
+            <input type="radio" name="ans" value="d">
           none of the above
-        </label>
-      </div>
 
-<!-- QUESTION: 2 -->
-        <p> what is the correct place to insert a JavaScript?</p>
-        <div class="radio">
-        <label>
-          <input type="radio" name="ele" value="head" checked>
-          the head section
-        </label>
-      <br>
-      <br>
-        <label>
-          <input type="radio" name="ele" value="both">
+          </div>
+
+            <!-- question 2 -->
+            <p> what is the correct place to insert a JavaScript?</p>
+
+
+            <input type="radio" id="answer" name="ans1" value="head" checked>
+          The head section
+
+            <br>
+            <br>
+
+            <input type="radio" id="answer" name="ans1" value="both">
           both head and body
-        </label>
-      <br>
-      <br>
 
-        <label>
-          <input type="radio" name="ele" value="body">
+            <br>
+            <br>
+
+
+            <input type="radio" id="answer" name="ans1" value="body">
           the body
-        </label>
-          <br>
-          <br>
-          <label>
-                <input type="radio" name="ele" value="none" checked>
+
+            <br>
+            <br>
+
+            <input type="radio" id="answer" name="ans1" value="none" checked>
                 none of the above
-              </label>
-            </div>
+
             <!-- question three -->
 
-<p>The external JavaScript file must contain the <scripts> tag.
-  <div class="radio">
-    <label>
-      <input type="radio" name="condition" value="bolean">
+            <p>The external JavaScript file must contain the <scripts> tag?</p>
+
+            <input type="radio" id="answer" name="ans2" value="bolean">
       True
-    </label>
-  <br>
-  <br>
-    <label>
-      <input type="radio" name="condition" value="bolean">
+            <br>
+            <br>
+
+            <input type="radio" id="answer" name="ans2" value="bolean">
       False
-    </label>
-  </div>
-  <!-- question four -->
-  <p>how do you write an if statement in JavaScript?
-    <div class="radio">
-      <label>
-        <input type="radio" name="statement" value="iif">
+            <!-- question four -->
+            <p>how do you write an if statement in JavaScript?
+
+              <input type="radio" id="answer" name="ans3" value="iif">
         if i =5
-      </label>
-    <br>
-    <br>
-      <label>
-        <input type="radio" name="statement" value="">
-      if i ==-then
-      </label>
-  <br>
-  <br>
-      <label>
-        <input type="radio" name="statement" value="">
+
+              <br>
+              <br>
+
+              <input type="radio" id="answer" name="ans3" value="if">
+      if (i==5)then
+
+              <br>
+              <br>
+              <label>
+        <input type="radio" id="answer" name="ans3" value="f">
           if i=5 then
-      </label>
-    <br>
-    <br>
-      <label>
-        <input type="radio" name="statement" value="">
-        none of the above
-      </label>
-    </div>
-    <p> How can you add a comment in a JavaScript?</p>
-    <div class="radio">
-   <label>
-     <input type="radio" name="comment" value="" checked>
+
+              <br>
+              <br>
+
+        <input type="radio" id="answer"name="ans3" value="none">
+        none of the ab
+
+            <p> How can you add a comment in a JavaScript?</p>
+
+
+     <input type="radio" id="answer" name="ans4" value="comment" checked>
      < !----comment ---!>
-   </label>
- <br>
- <br>
-   <label>
-     <input type="radio" name="comment" value="">
+
+              <br>
+              <br>
+
+     <input type="radio" id="answer" name="ans4" value="comment">
      /.comment
-   </label>
- <br>
- <br>
-   <label>
-     <input type="radio" name="comment" value="">
+
+              <br>
+              <br>
+
+     <input type="radio" id="answer" name="ans4" value="comment">
      //comment
-   </label>
- </div>
+
+
 
       </form>
+      <button type="submit" class="btn" onclick="check()">Get results</button>
+
+    </div>
 </body>
 
 </html>
