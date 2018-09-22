@@ -1,27 +1,27 @@
- 
+
 function check(){
   var q1 = document.myform.q1.value;
   var q2 = document.myform.q2.value;
   var q3 = document.myform.q3.value;
   var q4 = document.myform.q4.value;
   var q5 = document.myform.q5.value;
-  var  res =0;
+  var  myResult =0;
 
   if (q1==="a"){
-           res+=4;
+           myResult+=4;
   }
   if (q2==="a"){
-           res+=4;
+           myResult+=4;
   }
   if (q3==="a"){
-           res+=4;
+           myResult+=4;
   }
   if (q4==="b"){
-           res+=4;
+           myResult+=4;
   }
   if (q5==="d"){
-           res+=4;
+           myResult+=4;
    }
-   alert("great "+ res+ " marks");
+   alert("great "+ myResult+ " marks");
 
 };
