@@ -13,18 +13,8 @@
 //     });
 //   });
 //
+function check({
+  var q1 = document.myform.q1.value:
+  
 
-$(document).ready(function(){
-  $("#quiz form").submit(function(event){
-    var questions = ["Inside which HTML element do we put the JavaScript?" ,"what is the correct place to insert a JavaScript?" , "The external JavaScript file must contain the <scripts> tag?" ,"how do you write an if statement in JavaScript?"," How can you add a comment in a JavaScript?"];
-    var answers = ["scripts", "The head section" ,"True", "if (i==5)then" ,"//comment"];
-       var res =[var answers === var questions];
-     res.forEach(function(res){
-       var userInput=$(userInput + answer).val();
-       alert(res);
-
-       event.preventDefault();
-     })
-
-  });
-});
+})
