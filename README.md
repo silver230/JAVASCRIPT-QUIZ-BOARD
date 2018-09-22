@@ -1,5 +1,5 @@
-# TRIANGLE TRACKER
-## A Triangle Tracker App, 09/14/18
+# JAVASCRIPT QUIZ BOARD
+##  A quiz bord test app
 #### By sylvesteromondi
 
 ### Description
@@ -16,13 +16,13 @@ bootstrap
 You need the following to access the website Smart ####phone/PC/laptop/Desktop/Tablet or any PDA Internet connectivity (either ####wireless or ethernet) A web browser(Chrome is most recommendable) Open the ####browser, key in the followin this link: my site is published at  
 
 ## BDD Specifications
-Behavior	                        | Input Example	          |Output Example
-_________________________________________________________________
-user clicks on a radio buttons    | right answer            | alerts 12marks
-when he/she chooses the answers,  |_____________________________________
-he/she thinks is right            |Wrong answer             | alerts 0 maks
-Support and contact details       |______________________________________
-__________________________________________________________________________
+|Behavior	              | Input Example	      |Output Example|
+|-----------------------|:--------------------|:------------------------:|
+user clicks on a radio buttons    | right answer            | alerts  |  12marks                           |                                   |
+when he/she chooses the answers,  |------------------------------------|
+he/she thinks is right            |Wrong answer             | alerts 0 | marks                             |-------------------------------------|
+Support and contact details       |                                      |
+-------------------------------------------------------------------------|
 
 ### License
 This project is under MIT License. Copyright (c) 2018 sylvesteromondi
