@@ -20,7 +20,20 @@ function check({
   var q4 = document.myform.q4.value:
   var  ans =0;
 
-  if (q1===""){
-           ans++4
+  if (q1==="a"){
+           ans++4;
   }
+  if (q1==="a"){
+           ans++4;
+  }
+  if (q1==="a"){
+           ans++4;
+  }
+  if (q1==="b"){
+           ans++4;
+  }
+  if (q1==="d"){
+           ans++4;
+  }
+  alert("ans+" marks)
 })
