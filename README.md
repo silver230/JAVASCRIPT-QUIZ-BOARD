@@ -13,7 +13,7 @@ jquery
 bootstrap
 
 ## Setup Instructions
-You need the following to access the website Smart ####phone/PC/laptop/Desktop/Tablet or any PDA Internet connectivity (either ####wireless or ethernet) A web browser(Chrome is most recommendable) Open the ####browser, key in the followin this link: my site is published at  
+You need the following to access the website Smart ####phone/PC/laptop/Desktop/Tablet or any PDA Internet connectivity (either ####wireless or ethernet) A web browser(Chrome is most recommendable) Open the ####browser, key in the followin this link: my site is published at   https://silver230.github.io/JAVASCRIPT-QUIZ-BOARD/
 
 ## BDD Specifications
 |Behavior	              | Input Example	      |Output Example|
